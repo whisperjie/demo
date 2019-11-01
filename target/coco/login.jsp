@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page import="com.whisper.entity.User" %><%--
   Created by IntelliJ IDEA.
   User: whisp
@@ -16,7 +17,7 @@
 </head>
 <body>
 <div class="container">
-    <%
+  <%--  <%
         String info = (String) request.getAttribute("info");
             if(info!=null){
 
@@ -29,12 +30,20 @@
         int userNum=(Integer)Num;%>
 
     <h1 class="text-info">当前登录用户：<%= user.name%>,当前在线用户数为<%=userNum%></h1>
-    <%}%>
+    <%}%>--%>
 <form action="login-do" method="post">
     名称：<input type="text" name="username"><br>
     密码：<input type="password" name="password"><br>
     <button type="submit">go</button>
 </form>
+    <c:choose>
+        <c:when test="${not empty info}">
+            <h1 class="text-danger">${info}</h1>
+        </c:when>
+    </c:choose>
+      <c:if test="${not empty user}">
+          <h1 class="text-info">当前登录用户：${user.name},当前在线用户数为${userNum}</h1>
+      </c:if>
 </div>
 </body>
 </html>

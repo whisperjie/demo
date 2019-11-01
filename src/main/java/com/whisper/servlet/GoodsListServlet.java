@@ -1,5 +1,7 @@
 package com.whisper.servlet;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.whisper.entity.Goods;
 import com.whisper.service.GoodsService;
 
@@ -19,7 +21,9 @@ public class GoodsListServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         List<Goods> list=new GoodsService().getAllGoods();
+        String jsonString=JSON.toJSONString(list, SerializerFeature.WriteNullListAsEmpty,SerializerFeature.WriteNullStringAsEmpty);
         req.setAttribute("list",list);
+        System.out.println(jsonString);
         req.getRequestDispatcher("/admin/goods_list.jsp").forward(req,resp);
     }
 

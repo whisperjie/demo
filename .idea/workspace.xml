@@ -2,36 +2,40 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="demo:war exploded" />
+      <artifact name="web:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8926e2db-f06b-4ece-af0b-ac26b88054b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/db/user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whisper/servlet/AjaxServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/vue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/whisper/servlet/GoodsListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/whisper/servlet/GoodsListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/goods_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/goods_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/jstl.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jstl.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/coco.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/whisper/Util/DbUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whisper/Util/DbUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/whisper/dao/UserUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whisper/dao/UserUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/whisper/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whisper/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/whisper/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whisper/servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/whisper/servlet/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whisper/servlet/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/coco/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/coco/WEB-INF/classes/com/whisper/Util/DbUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/WEB-INF/classes/com/whisper/Util/DbUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/coco/WEB-INF/classes/com/whisper/dao/UserUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/WEB-INF/classes/com/whisper/dao/UserUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/coco/WEB-INF/classes/com/whisper/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/WEB-INF/classes/com/whisper/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/coco/WEB-INF/classes/com/whisper/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/WEB-INF/classes/com/whisper/servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/coco/WEB-INF/classes/com/whisper/servlet/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/WEB-INF/classes/com/whisper/servlet/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/whisper/servlet/GoodsListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whisper/servlet/GoodsListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/coco/WEB-INF/classes/com/whisper/servlet/GoodsListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/WEB-INF/classes/com/whisper/servlet/GoodsListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/coco/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/coco/aa.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/aa.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/coco/admin/goods_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/admin/goods_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/coco/el.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/el.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/coco/foot.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/foot.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/coco/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/coco/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/coco/jstl.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/jstl.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/coco/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/coco/personcenter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/personcenter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/coco/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/coco/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/coco/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/coco/static/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/static/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/coco/static/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/static/js/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/coco/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/coco/test.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +57,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - test@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -92,7 +112,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1SCTXvFHsHFDEH2T6quGbAqIIfu" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
@@ -100,7 +120,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Java/apache-tomcat-9.0.27/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/static/js" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -108,6 +128,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\whisp\IdeaProjects\web\src\main\webapp\static\js" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/static" />
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -127,12 +148,10 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.27" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/demo_war_exploded/" />
-      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="demo:war exploded">
+        <artifact name="web:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/demo_war_exploded" />
+            <option name="CONTEXT_PATH" value="/web_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -196,6 +215,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="demo:war exploded" />
+          <artifact name="web:war exploded" />
         </option>
       </method>
     </configuration>
@@ -269,6 +289,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="demo:war exploded" />
+          <artifact name="web:war" />
         </option>
       </method>
     </configuration>
@@ -280,12 +301,11 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2a6b7c71" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4587083" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2a6b7c71" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7ee0498d" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@da8973af" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />

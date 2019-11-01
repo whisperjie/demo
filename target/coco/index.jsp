@@ -24,7 +24,7 @@
         <p class="text-danger"><a href="login-out">退出</a></p>
         <hr>
     </c:if>
-<%
+<%--<%
     /*Map<String,String> map=new HashMap<String, String>();
     map.put("name","whisper");
     map.put("age","22");
@@ -37,7 +37,7 @@
 %>
 ${users[2].name}
 ${1+1}
-    ${1>5}
+    ${1>5}--%>
 
 
 
