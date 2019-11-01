@@ -16,7 +16,10 @@
 <c:set var="aaaa" value="dd" scope="request"></c:set>
 <c:out value="${aaaa}"></c:out>
 <c:remove var="aaaa"></c:remove>
-
-${aaaa}
+<c:set var="age" value="20" scope="request"></c:set>
+<c:if test="${age>=18}">
+<p>你是成年人</p>
+</c:if>
+<%--${aaaa}--%>
 </body>
 </html>
