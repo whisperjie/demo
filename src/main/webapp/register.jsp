@@ -47,12 +47,13 @@
 </script>
         <div id="app">
     <form action="register-do" method="post">
-        名称：<input type="text" name="username" v-model="name" placeholder="请输入昵称"><span id="ifo"></span><br>
+        名称：<input type="text" name="username" v-model="name" placeholder="请输入昵称"><span id="info" class="text-info"></span><br>
         密码：<input type="password" name="password"><br>
         年龄：<input type="text" name="age"><br>
        性别：男 <input type="radio" name="sex" value="男" checked>
         女：<input type="radio" name="sex" value="女"><br>
         <button type="submit">go</button>
+        <div id="aa"></div>
     </form>
         </div>
     
@@ -62,7 +63,7 @@
     var app=new Vue({
         el:"#app",
         data:{
-            name:'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+            name:''
         },
         watch:{
             name: function (old) {
@@ -74,7 +75,15 @@
                         key:old
                     },
                     success:function (msg) {
-                        console.log(msg)
+                        if (msg=="可以使用"){
+                            $("#info").removeClass("text-danger")
+                            $("#info").addClass("text-success")
+                        }
+                        if (msg=="此昵称已被注册"){
+                            $("#info").removeClass("text-success")
+                            $("#info").addClass("text-danger")
+                        }
+                        $("#info").html(msg);
                     }
                 })
             }

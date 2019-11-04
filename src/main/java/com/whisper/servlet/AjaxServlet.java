@@ -25,6 +25,7 @@ public class AjaxServlet extends HttpServlet {
         response.setContentType("text/text");
         response.setCharacterEncoding("UTF-8");
         String key=request.getParameter("key");
+        System.out.println(key);
         User user=null;
         String msg="";
         try {
@@ -37,12 +38,7 @@ public class AjaxServlet extends HttpServlet {
         }else {
             msg="可以使用";
         }
-        // 获取PrintWriter对象
-        PrintWriter out = response.getWriter();
-        out.print(msg);
-        // 释放PrintWriter对象
-        out.flush();
-        out.close();
+       response.getWriter().append(msg);
 
     }
 }
